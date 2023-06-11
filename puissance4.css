@@ -1,0 +1,36 @@
+body {
+    background-image: url(./Stkyof.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#puissance4{
+    width: 50%;
+}
+#containerDiv{
+    margin-top: 38%;
+    margin-left: 18%;
+}
+#game td.player1 {
+    background-color: red;
+}
+
+#game td.player2 {
+    background-color: yellow;
+}
+@media (min-width : 300px) and (max-width : 480px) {
+    body {
+        background-image: url(./Stkyof.gif);
+        background-repeat: no-repeat;
+        margin-top: 698px;
+    }
+    #puissance4{
+        width: 10% !important;
+    }
+    img {
+        width: 25% !important;
+    }
+    #containerDiv{
+        margin-top: 38% !important;
+        margin-left: 18% !important;
+    }
+}
