@@ -1,0 +1,21 @@
+body {
+    background-image: url(./naruto-background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+#containerDiv{
+    margin-top: 38%;
+    margin-left: 18%;
+}
+#game td.player1 {
+    background-color: red;
+}
+
+#game td.player2 {
+    background-color: yellow;
+}
